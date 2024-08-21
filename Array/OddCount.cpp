@@ -10,7 +10,7 @@ int findOddOccurrence(int arr[], int size) {
 }
 
 int main() {
-	int arr[] = {2,2,2,2,2,7,9,9};
+	int arr[] = {1,1,1,1,1,1,1,1};// {2,2,2,2,2,7,9,9};
 	int size = sizeof(arr) / sizeof(arr[0]);
 	int oddOccurrence = findOddOccurrence(arr, size);
 	std::cout << "Number occurring odd number of times: " << oddOccurrence << std::endl;
